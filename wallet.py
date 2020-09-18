@@ -32,11 +32,6 @@ class TransactionHistoryTableModel(QAbstractTableModel):
     """
     def __init__(self, parent, MySnapshot_list, header, *args):
         QAbstractTableModel.__init__(self, parent, *args)
-        #finalData = MySnapshot_list
-        #for eachRecord in MySnapshot_list:
-            
-        #    finalData.append(thisRecord)
-
         self.mylist = MySnapshot_list
         self.header = ["Txid","From", "To", "Amount"]
 
