@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+'''
+@File    :   wallet.py
+@Time    :   2020/09/16 16:43:09
+@Author  :   Guo Yi 
+@Version :   0.1
+@Contact :   guoyi1026@gmail.com
+@License :   (C)Copyright 2020
+@Desc    :   None
+'''
+
+# here put the import lib
+
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
@@ -92,6 +106,7 @@ class MainWindow(QMainWindow):
         self.w.show()
 
         self.wallet =WalletLibrary.recover(self.file_name)
+        ## libra testnet
         self.libra_client = Client("testnet") 
         self.open_selected_wallet()
 
