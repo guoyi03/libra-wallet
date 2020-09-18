@@ -1,12 +1,10 @@
-# Libra Wallet
-
+# Libra GUI Wallet
 
 ### Environments
 * Python 3.7
 * PyQT5
 * Ubuntu
-* [Libra](https://github.com/libra/libra)
-* [libra explorer](https://libexplorer.com/)
+
 
 ### Install
 ```
@@ -18,3 +16,10 @@
 ```
 (wallet) #python wallet.py
 ```
+
+### Reference
+* [libra web](https://libra.org/)
+* [libra](https://github.com/libra/libra)
+* [libra explorer](https://libexplorer.com/)
+* [libra-client](https://github.com/yuan-xy/libra-client)
+* [libra-core](https://github.com/MoveOnLibra/libra-core)
