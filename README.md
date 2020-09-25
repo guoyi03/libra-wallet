@@ -5,7 +5,6 @@
 * PyQT5
 * Ubuntu
 
-
 ### Install
 ```
 #conda create -n wallet python=3.7
@@ -17,6 +16,12 @@
 (wallet) #python wallet.py
 ```
 
+### TODO
+- [ ] Multithread
+- [ ] BIP44
+- [ ] Smart contract
+- [ ] ...
+ 
 ### Reference
 * [libra web](https://libra.org/)
 * [libra](https://github.com/libra/libra)
